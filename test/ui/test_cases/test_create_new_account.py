@@ -1,13 +1,15 @@
 import time
 
+import pytest
+
 from test.ui.pages.list import ListPage
 from test.ui.pages.login import LoginPage
 from test.ui.pages.main import MainPage
 from test.ui.pages.signup import SignUpPage
 
-
 class TestCreateNewAccount:
 
+    @pytest.mark.smoke
     def test_guest_can_create_new_account(self, browser, user_data):
         url = 'http://195.133.27.184/'
 
