@@ -7,4 +7,4 @@
 
 2. Установить все зависимости командой *pip install -r requirements.txt*
 
-3. Запустить тест командой *pytest -m smoke*
+3. Запустить тест командой *pytest -m smoke*.
