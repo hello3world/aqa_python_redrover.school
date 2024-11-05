@@ -16,7 +16,7 @@ class TestCreateNewAccount:
         main_page = MainPage(browser, url)
         main_page.open()
         main_page.press_button_become_repetitor()
-
+        print("Страница main отработана")
         login = LoginPage(browser, url)
         login.click_on_link_create_account()
 

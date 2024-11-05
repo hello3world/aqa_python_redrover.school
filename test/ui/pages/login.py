@@ -8,5 +8,6 @@ class LoginPage(BasePage):
 
 
     def click_on_link_create_account(self):
+        ''' Метод кликает по ссылке '''
         self.browser.find_element(*LoginPageLocators.LINK_CREATE_ACCOUNT).click()
 
