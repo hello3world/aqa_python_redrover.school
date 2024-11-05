@@ -17,4 +17,5 @@ def browser():
 def user_data():
     username = fake.user_name()
     password = fake.password()
+    city = fake.city()
     return {"username": username, "password": password}
